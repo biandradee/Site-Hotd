@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=VT323&display=swap');
+
+.container-dragons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #D21617;
+    font-size: 24px;
+}
+
+#logo2 {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.dragon-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.dragon-cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card2 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #D21617;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.card2:hover {
+    transform: scale(1.02);
+}
+
+.dragons-1 {
+    background-image: url('https://i.pinimg.com/564x/a4/01/a9/a401a93be3dca7d35fbf5e5a7ffe75f8.jpg');
+}
+
+.dragons-2 {
+    background-image: url('https://i.pinimg.com/564x/67/55/17/675517dc4e48607e8337b5f84e9e686a.jpg');
+}
+
+.dragons-3 {
+    background-image: url('https://i.pinimg.com/564x/a3/3b/98/a33b98501f7deda4d9cf1c7319c610fb.jpg');
+    background-position: 10% 90%;
+}
+
+.dragons-4 {
+    background-image: url('https://i.pinimg.com/564x/b0/e9/0b/b0e90be6e48c414e69ef1aea667cb844.jpg');
+}
+
+.dragons-5 {
+    background-image: url('https://i.pinimg.com/564x/55/c9/65/55c965b5c4d6535ffa0170d579170ed5.jpg');
+}
+
+.dragons-6 {
+    background-image: url('https://i.pinimg.com/564x/70/9f/60/709f602c8ebd1b3d5af0fbc8fc022ec7.jpg');
+}
+
+.dragons-7 {
+    background-image: url('https://i.pinimg.com/564x/de/cd/1c/decd1cbcd9d51bc3e283434826f174fd.jpg');
+}
+
+.dragons-8 {
+    background-image: url('https://img.ibxk.com.br/2022/08/18/18180643748224.jpg?ims=704x');
+    background-position: 90% 10%;
+}
+
+.dragons-9 {
+    background-image: url('https://i.pinimg.com/564x/c9/0f/bd/c90fbd11b2e948d5df79a6cd0047e439.jpg');
+}
+
+.dragons-10 {
+    background-image: url('https://i.pinimg.com/564x/54/14/fa/5414fa520fefd66618035bac5e819018.jpg');
+}
+
+.dragons-11 {
+    background-image: url('https://i.pinimg.com/564x/8a/ec/f4/8aecf48052a5d64afc409ed6b1bf297a.jpg');
+}
+
+.dragons-12 {
+    background-image: url('https://i.pinimg.com/564x/82/7d/ef/827def3eef23e0f391f66316549e3dfc.jpg');
+}
+
+.dragons-13 {
+    background-image: url('https://i.pinimg.com/564x/6b/2b/e9/6b2be94b8dd6e9d6a908b2f89583cd92.jpg');
+    background-position: 80% 20%;
+}
+
+.dragons-14 {
+    background-image: url('https://i.pinimg.com/564x/95/4f/02/954f02e59e3b6afd9948c777b8fa3a44.jpg');
+    background-position: 20% 60%;
+}
+
+.dragons-15 {
+    background-image: url('https://i.pinimg.com/564x/68/f1/8a/68f18a8d239295acacec37ed9f00933b.jpg');
+}
+
+.dragons-16 {
+    background-image: url('https://i.pinimg.com/564x/37/71/7d/37717d32e8d08b57dbd8a52b05b1a8c3.jpg');
+    margin-bottom: 20px;
+}
+

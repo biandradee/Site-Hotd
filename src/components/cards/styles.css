@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=VT323&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.card-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cards {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://th.bing.com/th/id/R.fad1394f2c8d2062d96f8222968139b2?rik=PlQMY5aw8RThaA&pid=ImgRaw&r=0');
+}
+
+.banner-2 {
+    background-image: url('https://th.bing.com/th/id/OIP.gApXikxcaOl71B0_FgBGEAHaQd?pid=ImgDet&rs=1');
+}
+
+.banner-3 {
+    background-image: url('https://th.bing.com/th/id/R.7f2caf70572d3cd24932a05e2965ad7a?rik=d8EVgMebZw6DYA&pid=ImgRaw&r=0');
+}
+
+@media(max-width: 768px) {
+
+    #cards {
+        background-position: 40%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        margin-top: 130px;
+    }
+}
