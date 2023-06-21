@@ -67,8 +67,7 @@
     color: #000; 
 }
 
-@media(max-width: 768px) {
-    
+@media(max-width: 768px) {   
     #trailer-container {
         width: 100%;
         height: 400px;

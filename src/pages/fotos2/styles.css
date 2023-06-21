@@ -126,3 +126,25 @@ h1 {
     margin-bottom: 20px;
 }
 
+@media(max-width: 768px) {
+    .container-dragons {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .dragon-cards {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+      
+    .card2 {
+        width: 100%;
+        height: 300px;
+        font-size: 14px;
+        background-position: 50% 40%;
+    }
+}
