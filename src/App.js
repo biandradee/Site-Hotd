@@ -8,7 +8,7 @@ import Personagens from './pages/fotos/fotos';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/contato' element={<Dragões />}/>
